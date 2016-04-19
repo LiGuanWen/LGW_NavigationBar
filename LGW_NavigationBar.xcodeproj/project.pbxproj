@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD2457B41CC5D928001F64CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2457B31CC5D928001F64CF /* main.m */; };
+		FD2457B71CC5D928001F64CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2457B61CC5D928001F64CF /* AppDelegate.m */; };
+		FD2457BA1CC5D928001F64CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2457B91CC5D928001F64CF /* ViewController.m */; };
+		FD2457BD1CC5D928001F64CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD2457BB1CC5D928001F64CF /* Main.storyboard */; };
+		FD2457BF1CC5D928001F64CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD2457BE1CC5D928001F64CF /* Assets.xcassets */; };
+		FD2457C21CC5D928001F64CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD2457C01CC5D928001F64CF /* LaunchScreen.storyboard */; };
+		FD2457CD1CC5D928001F64CF /* LGW_NavigationBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2457CC1CC5D928001F64CF /* LGW_NavigationBarTests.m */; };
+		FD2457D81CC5D928001F64CF /* LGW_NavigationBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2457D71CC5D928001F64CF /* LGW_NavigationBarUITests.m */; };
+		FD2457E81CC5DFAA001F64CF /* ChangeNavColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2457E71CC5DFAA001F64CF /* ChangeNavColorViewController.m */; };
+		FD6D2F161CC6180800401BF4 /* HiddenNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6D2F151CC6180800401BF4 /* HiddenNavViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD2457C91CC5D928001F64CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD2457A71CC5D928001F64CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD2457AE1CC5D928001F64CF;
+			remoteInfo = LGW_NavigationBar;
+		};
+		FD2457D41CC5D928001F64CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD2457A71CC5D928001F64CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD2457AE1CC5D928001F64CF;
+			remoteInfo = LGW_NavigationBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD2457AF1CC5D928001F64CF /* LGW_NavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGW_NavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD2457B31CC5D928001F64CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD2457B51CC5D928001F64CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD2457B61CC5D928001F64CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD2457B81CC5D928001F64CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD2457B91CC5D928001F64CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD2457BC1CC5D928001F64CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD2457BE1CC5D928001F64CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD2457C11CC5D928001F64CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD2457C31CC5D928001F64CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD2457C81CC5D928001F64CF /* LGW_NavigationBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGW_NavigationBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD2457CC1CC5D928001F64CF /* LGW_NavigationBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGW_NavigationBarTests.m; sourceTree = "<group>"; };
+		FD2457CE1CC5D928001F64CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD2457D31CC5D928001F64CF /* LGW_NavigationBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGW_NavigationBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD2457D71CC5D928001F64CF /* LGW_NavigationBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGW_NavigationBarUITests.m; sourceTree = "<group>"; };
+		FD2457D91CC5D928001F64CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD2457E61CC5DFAA001F64CF /* ChangeNavColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeNavColorViewController.h; sourceTree = "<group>"; };
+		FD2457E71CC5DFAA001F64CF /* ChangeNavColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeNavColorViewController.m; sourceTree = "<group>"; };
+		FD6D2F141CC6180800401BF4 /* HiddenNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HiddenNavViewController.h; sourceTree = "<group>"; };
+		FD6D2F151CC6180800401BF4 /* HiddenNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HiddenNavViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD2457AC1CC5D928001F64CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD2457C51CC5D928001F64CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD2457D01CC5D928001F64CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD2457A61CC5D928001F64CF = {
+			isa = PBXGroup;
+			children = (
+				FD2457B11CC5D928001F64CF /* LGW_NavigationBar */,
+				FD2457CB1CC5D928001F64CF /* LGW_NavigationBarTests */,
+				FD2457D61CC5D928001F64CF /* LGW_NavigationBarUITests */,
+				FD2457B01CC5D928001F64CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD2457B01CC5D928001F64CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD2457AF1CC5D928001F64CF /* LGW_NavigationBar.app */,
+				FD2457C81CC5D928001F64CF /* LGW_NavigationBarTests.xctest */,
+				FD2457D31CC5D928001F64CF /* LGW_NavigationBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD2457B11CC5D928001F64CF /* LGW_NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				FD6D2F131CC617F700401BF4 /* HiddenNav */,
+				FD2457B51CC5D928001F64CF /* AppDelegate.h */,
+				FD2457B61CC5D928001F64CF /* AppDelegate.m */,
+				FD2457B81CC5D928001F64CF /* ViewController.h */,
+				FD2457B91CC5D928001F64CF /* ViewController.m */,
+				FD2457E51CC5DF87001F64CF /* 修改Nav颜色 */,
+				FD2457BB1CC5D928001F64CF /* Main.storyboard */,
+				FD2457BE1CC5D928001F64CF /* Assets.xcassets */,
+				FD2457C01CC5D928001F64CF /* LaunchScreen.storyboard */,
+				FD2457C31CC5D928001F64CF /* Info.plist */,
+				FD2457B21CC5D928001F64CF /* Supporting Files */,
+			);
+			path = LGW_NavigationBar;
+			sourceTree = "<group>";
+		};
+		FD2457B21CC5D928001F64CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD2457B31CC5D928001F64CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD2457CB1CC5D928001F64CF /* LGW_NavigationBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD2457CC1CC5D928001F64CF /* LGW_NavigationBarTests.m */,
+				FD2457CE1CC5D928001F64CF /* Info.plist */,
+			);
+			path = LGW_NavigationBarTests;
+			sourceTree = "<group>";
+		};
+		FD2457D61CC5D928001F64CF /* LGW_NavigationBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD2457D71CC5D928001F64CF /* LGW_NavigationBarUITests.m */,
+				FD2457D91CC5D928001F64CF /* Info.plist */,
+			);
+			path = LGW_NavigationBarUITests;
+			sourceTree = "<group>";
+		};
+		FD2457E51CC5DF87001F64CF /* 修改Nav颜色 */ = {
+			isa = PBXGroup;
+			children = (
+				FD2457E61CC5DFAA001F64CF /* ChangeNavColorViewController.h */,
+				FD2457E71CC5DFAA001F64CF /* ChangeNavColorViewController.m */,
+			);
+			name = "修改Nav颜色";
+			sourceTree = "<group>";
+		};
+		FD6D2F131CC617F700401BF4 /* HiddenNav */ = {
+			isa = PBXGroup;
+			children = (
+				FD6D2F141CC6180800401BF4 /* HiddenNavViewController.h */,
+				FD6D2F151CC6180800401BF4 /* HiddenNavViewController.m */,
+			);
+			name = HiddenNav;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD2457AE1CC5D928001F64CF /* LGW_NavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD2457DC1CC5D928001F64CF /* Build configuration list for PBXNativeTarget "LGW_NavigationBar" */;
+			buildPhases = (
+				FD2457AB1CC5D928001F64CF /* Sources */,
+				FD2457AC1CC5D928001F64CF /* Frameworks */,
+				FD2457AD1CC5D928001F64CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGW_NavigationBar;
+			productName = LGW_NavigationBar;
+			productReference = FD2457AF1CC5D928001F64CF /* LGW_NavigationBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD2457C71CC5D928001F64CF /* LGW_NavigationBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD2457DF1CC5D928001F64CF /* Build configuration list for PBXNativeTarget "LGW_NavigationBarTests" */;
+			buildPhases = (
+				FD2457C41CC5D928001F64CF /* Sources */,
+				FD2457C51CC5D928001F64CF /* Frameworks */,
+				FD2457C61CC5D928001F64CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD2457CA1CC5D928001F64CF /* PBXTargetDependency */,
+			);
+			name = LGW_NavigationBarTests;
+			productName = LGW_NavigationBarTests;
+			productReference = FD2457C81CC5D928001F64CF /* LGW_NavigationBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD2457D21CC5D928001F64CF /* LGW_NavigationBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD2457E21CC5D928001F64CF /* Build configuration list for PBXNativeTarget "LGW_NavigationBarUITests" */;
+			buildPhases = (
+				FD2457CF1CC5D928001F64CF /* Sources */,
+				FD2457D01CC5D928001F64CF /* Frameworks */,
+				FD2457D11CC5D928001F64CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD2457D51CC5D928001F64CF /* PBXTargetDependency */,
+			);
+			name = LGW_NavigationBarUITests;
+			productName = LGW_NavigationBarUITests;
+			productReference = FD2457D31CC5D928001F64CF /* LGW_NavigationBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD2457A71CC5D928001F64CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "第七代目";
+				TargetAttributes = {
+					FD2457AE1CC5D928001F64CF = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					FD2457C71CC5D928001F64CF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FD2457AE1CC5D928001F64CF;
+					};
+					FD2457D21CC5D928001F64CF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FD2457AE1CC5D928001F64CF;
+					};
+				};
+			};
+			buildConfigurationList = FD2457AA1CC5D928001F64CF /* Build configuration list for PBXProject "LGW_NavigationBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD2457A61CC5D928001F64CF;
+			productRefGroup = FD2457B01CC5D928001F64CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD2457AE1CC5D928001F64CF /* LGW_NavigationBar */,
+				FD2457C71CC5D928001F64CF /* LGW_NavigationBarTests */,
+				FD2457D21CC5D928001F64CF /* LGW_NavigationBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD2457AD1CC5D928001F64CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD2457C21CC5D928001F64CF /* LaunchScreen.storyboard in Resources */,
+				FD2457BF1CC5D928001F64CF /* Assets.xcassets in Resources */,
+				FD2457BD1CC5D928001F64CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD2457C61CC5D928001F64CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD2457D11CC5D928001F64CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD2457AB1CC5D928001F64CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6D2F161CC6180800401BF4 /* HiddenNavViewController.m in Sources */,
+				FD2457BA1CC5D928001F64CF /* ViewController.m in Sources */,
+				FD2457B71CC5D928001F64CF /* AppDelegate.m in Sources */,
+				FD2457E81CC5DFAA001F64CF /* ChangeNavColorViewController.m in Sources */,
+				FD2457B41CC5D928001F64CF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD2457C41CC5D928001F64CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD2457CD1CC5D928001F64CF /* LGW_NavigationBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD2457CF1CC5D928001F64CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD2457D81CC5D928001F64CF /* LGW_NavigationBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD2457CA1CC5D928001F64CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD2457AE1CC5D928001F64CF /* LGW_NavigationBar */;
+			targetProxy = FD2457C91CC5D928001F64CF /* PBXContainerItemProxy */;
+		};
+		FD2457D51CC5D928001F64CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD2457AE1CC5D928001F64CF /* LGW_NavigationBar */;
+			targetProxy = FD2457D41CC5D928001F64CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD2457BB1CC5D928001F64CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD2457BC1CC5D928001F64CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD2457C01CC5D928001F64CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD2457C11CC5D928001F64CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD2457DA1CC5D928001F64CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD2457DB1CC5D928001F64CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD2457DD1CC5D928001F64CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LGW_NavigationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diqidaimu.LGW-NavigationBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD2457DE1CC5D928001F64CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LGW_NavigationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diqidaimu.LGW-NavigationBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD2457E01CC5D928001F64CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LGW_NavigationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diqidaimu.LGW-NavigationBarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGW_NavigationBar.app/LGW_NavigationBar";
+			};
+			name = Debug;
+		};
+		FD2457E11CC5D928001F64CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LGW_NavigationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diqidaimu.LGW-NavigationBarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGW_NavigationBar.app/LGW_NavigationBar";
+			};
+			name = Release;
+		};
+		FD2457E31CC5D928001F64CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LGW_NavigationBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diqidaimu.LGW-NavigationBarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LGW_NavigationBar;
+			};
+			name = Debug;
+		};
+		FD2457E41CC5D928001F64CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LGW_NavigationBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diqidaimu.LGW-NavigationBarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LGW_NavigationBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD2457AA1CC5D928001F64CF /* Build configuration list for PBXProject "LGW_NavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD2457DA1CC5D928001F64CF /* Debug */,
+				FD2457DB1CC5D928001F64CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD2457DC1CC5D928001F64CF /* Build configuration list for PBXNativeTarget "LGW_NavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD2457DD1CC5D928001F64CF /* Debug */,
+				FD2457DE1CC5D928001F64CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD2457DF1CC5D928001F64CF /* Build configuration list for PBXNativeTarget "LGW_NavigationBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD2457E01CC5D928001F64CF /* Debug */,
+				FD2457E11CC5D928001F64CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD2457E21CC5D928001F64CF /* Build configuration list for PBXNativeTarget "LGW_NavigationBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD2457E31CC5D928001F64CF /* Debug */,
+				FD2457E41CC5D928001F64CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD2457A71CC5D928001F64CF /* Project object */;
+}
